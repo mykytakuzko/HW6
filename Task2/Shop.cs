@@ -17,6 +17,11 @@ public class Shop : IDisposable
         fileStream = new FileStream("../../../Shops.txt", FileMode.Append, FileAccess.Write);
     }
 
+    ~Shop()
+    {
+        Console.WriteLine("The object is decreasing");
+    }
+
     public void Dispose()
     {
         if (fileStream != null)

@@ -16,5 +16,8 @@ class Program
     {
         Play firstPlay = new Play("Test", "Ivan", "Comedy", 1989);
         Console.WriteLine(firstPlay);
+        
+        firstPlay.WritePlayToFile();
+        firstPlay.Dispose();
     }
 }
