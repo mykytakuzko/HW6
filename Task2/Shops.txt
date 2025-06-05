@@ -1,0 +1,3 @@
+Name: Novus
+Address: Хрещатик
+Type: Economic
